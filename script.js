@@ -30,7 +30,7 @@ function employeeTax()
     {
         alert("Your Tax rate is 25%")
     }
-    else if(eSalary >= 1500000)
+    else if(eSalary > 1500000)
     {
         alert("Your Tax rate is 30%")
     }
