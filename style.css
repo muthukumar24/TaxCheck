@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Montsearrat";
+    src: url(Montserrat-Regular-1.ttf);
+}
+.sectionone{
+    height: 730px;
+    width: auto;
+/* border: solid; */
+    background-image: url(TaxBackgroundImg.webp);
+    background-size: cover;
+    background-position: center;
+}
+.layoutone{
+    height: 350px;
+    width: 600px;
+    /* border: solid; */
+    margin: auto;
+    background-color: rgba(210, 210, 210, 0.5);
+    border-radius: 50px;
+    position: relative;
+    top: 170px;
+    padding: 10px;
+}
+.layouttwo{
+    height: 300px;
+    width: 550px;
+    /* border: solid; */
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.sectionone .layoutone .layouttwo .taxchecktext{
+    font-family: "Montsearrat";
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.sectionone .layoutone .layouttwo .ename{
+    font-family: "Montsearrat";
+    font-size: large;
+    font-weight: 600;
+}
+.sectionone .layoutone .layouttwo #name{
+    height: 20px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.sectionone .layoutone .layouttwo .ecitizenship{
+    font-family: "Montsearrat";
+    font-size: large;
+    font-weight: 600;
+}
+.sectionone .layoutone .layouttwo #citizenship{
+    height: 20px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.sectionone .layoutone .layouttwo .esalary{
+    font-family: "Montsearrat";
+    font-size: large;
+    font-weight: 600;
+}
+.sectionone .layoutone .layouttwo #salary{
+    height: 20px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.sectionone .layoutone .layouttwo .calculatebutton{
+    font-family: "Montsearrat";
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px auto auto 150px;
+}
+.sectionone .layoutone .layouttwo .calculatebutton:hover{
+    background-color: black;
+    color: aliceblue;
+}
