@@ -6,7 +6,7 @@ function employeeTax()
 
  if(eCitizenship == "Indian" || eCitizenship == "indian" )
  {
-    if(eSalary >= 0 && eSalary <= 250000)
+    if(eSalary > 0 && eSalary <= 250000)
     {
       alert("You have no Tax to be paid")
     }
