@@ -10,23 +10,23 @@ function employeeTax()
     {
       alert("You have no Tax to be paid")
     }
-    else if(eSalary >= 250000 && eSalary <= 500000)
+    else if(eSalary > 250000 && eSalary <= 500000)
     {
         alert("Your Tax rate is 5%")
     }
-    else if(eSalary >= 500000 && eSalary <= 750000)
+    else if(eSalary > 500000 && eSalary <= 750000)
     {
         alert("Your Tax rate is 10%")
     }
-    else if(eSalary >= 750000 && eSalary <= 1000000)
+    else if(eSalary > 750000 && eSalary <= 1000000)
     {
         alert("Your Tax rate is 15%")
     }
-    else if(eSalary >= 100000 && eSalary <= 1250000)
+    else if(eSalary > 100000 && eSalary <= 1250000)
     {
         alert("Your Tax rate is 20%")
     }
-    else if(eSalary >= 1250000 && eSalary <= 1500000)
+    else if(eSalary > 1250000 && eSalary <= 1500000)
     {
         alert("Your Tax rate is 25%")
     }
